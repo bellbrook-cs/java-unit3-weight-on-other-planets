@@ -4,6 +4,8 @@ run = ["java", "-classpath", ".:target/dependency/*", "Main"]
 entrypoint = "Main.java"
 hidden = ["**/*.class"]
 
+onBoot = "rm -rf .git && git init"
+
 [packager]
 language = "java"
 
