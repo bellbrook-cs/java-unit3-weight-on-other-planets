@@ -1,10 +1,39 @@
-# Template Assignment
+# Weight on Other Planets
+
+Write a program that will determine the user’s weight on another planet. The program should ask the user to enter his weight (on earth) via the keyboard and then present a menu of the other mythical planets. The user should choose one of the planets from the menu, and use a switch (with an integer) statement to calculate the weight on the chosen planet. Use the following conversion factors to determine the user’s weight on the chosen planet.
+
+
+| Planet | Multiply weight by |
+| ------ | ------------------ |
+| Voltar | 0.091 |
+| Krypton | 0.720 |
+| Fertos | 0.865 |
+| Servontos | 4.612 |
 
 ## Problem Statement
 
 ## Input Description
 
+The user will enter a positive `double` representing the users weight.
+
+The user will then enter an integer representing their choice. You may assume the user will enter an integer, however you cannot assume the user will enter an integer in the range 0 to 4. Provide a relevant output if the user does not enter a number within the desired range.
+
 ## Sample Input/Output
+
+### Sample Run
+
+```
+What is your weight on the Earth? 135
+
+   1. Voltar
+   2. Krypton
+   3. Fertos
+   4. Servontos
+
+Selection? 1
+
+Your weight on Voltar would be 12.285
+```
 
 ## Submission
 
