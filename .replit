@@ -1,5 +1,5 @@
 run = "javac *.java && java Main"
-language = "java"
+language = "java17"
 onBoot = "rm -rf .git && git init && rm .replit"
 
 entryPoint = "Main.java"
